@@ -4,7 +4,6 @@ import { calculateCost } from "../util/cost";
 
 export const main = handler(async (event) => {
   const { storage, source } = JSON.parse(event.body);
-  console.log(event.body)
   const amount = calculateCost(storage);
   const description = "Scratch charge";
 
