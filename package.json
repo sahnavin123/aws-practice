@@ -21,6 +21,7 @@
   "dependencies": {
     "@serverless-stack/node": "^1.18.4",
     "aws-sdk": "^2.1300.0",
+    "stripe": "^11.7.0",
     "uuid": "^9.0.0"
   },
   "workspaces": [
